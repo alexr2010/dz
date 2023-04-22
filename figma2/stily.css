@@ -1,0 +1,109 @@
+h2 {color: blue;}
+a {
+    text-decoration: none;
+}
+.desciption {
+    color: rebeccapurple;
+    font-weight: 600;
+}
+.link {
+    font-size: 40px;
+}
+
+.title {
+    font-size: 55px;
+    font-style: italic;
+    color: blue;
+    
+}
+body {
+    background-color: yellow;
+}
+.wrap img { 
+    width: 100px;
+    height: 100px;
+}
+h3 {
+    opacity: 0.5;
+}
+
+.list > li:first-child {
+    color: tomato;
+    font-size: 30px;
+}
+
+.list > li:nth-child(2){
+    color: skyblue;
+    font-size: 25px;
+}
+
+.list > li:last-child {
+    color: rebeccapurple;
+    font-size: 20px;
+}
+
+.text {
+   color: #111111; 
+   font-size: 14px;
+   border-width: 5px 5px 5px 5px;
+  border-style: dashed;
+  border-color: #c1c1c1;
+  background-color: #00bcd4;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  text-indent: 20px;
+}
+.text-block {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background-color: skyblue;
+}
+
+.list-metro > li:first-child {
+    color: coral;
+    font-size: 30px;
+}
+
+.list-metro > li:nth-child(2){
+    color: chocolate;
+    font-size: 30px;
+}
+
+.list-metro > li:last-child {
+    color: lime;
+    font-size: 30px;
+}
+.wrapper p {
+    text-indent:20px;
+    font-size:18px;
+}
+.p {
+    font-size: 16px;
+}
+#p1 {
+    text-decoration:underline;
+    text-transform:uppercase;
+    color:red
+}
+.p1 {
+    color: rebeccapurple;
+}
+.p2 {
+    color: tomato;
+}
+.p3 {
+    color: aqua;
+}
+.p4 {
+    color: orangered;
+}
+.p5 {
+    color: darkgreen;
+}
+.p6 {
+    color: chocolate;
+}
+.wrapper_p p {
+    background-color: darkolivegreen;
+}
