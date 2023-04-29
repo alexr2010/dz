@@ -1,0 +1,218 @@
+body {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.text {
+    font-size: 14px;
+}
+
+img {
+    width: 100%;
+    max-width: 420px;
+}
+
+.block-parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    text-align: center;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-width: 420px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.hesh {
+    color: #B4AD9E;
+    font-size: 14px;
+    font-weight: 300px;
+    text-transform: uppercase;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.btn {
+    color: #626262;
+    font-size: 14px;
+    padding: 20px 40px;
+    background: white;
+    border: 1px solid #626262;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #626262;
+    color: #fff;
+}
+
+.color-task-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color-task-wrapper div {
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    background-color: rgba(255,0,0,0.5);
+}
+
+.blue {
+    background-color: rgba(63,81,181, .5);
+}
+
+.green {
+    background-color: rgba(76, 175, 80,0.5);
+}
+
+.yellow {
+    background-color: rgba(255, 235, 59,0.5);
+}
+
+.purple {
+    background-color: rgba(155, 38, 176,0.5);
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    width: 420px;
+    height: 280px;
+    background-image: url('photo5.png');
+}
+
+.child {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.flag-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flag-wrapper div {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.ua {
+    background: linear-gradient(to bottom, blue 0%,blue 50%,yellow 51%,yellow 100%)
+}
+
+.ger {
+    background: linear-gradient(to bottom, #000000 0%, #000000 33.33%, #FF0000 33.33%, #FF0000 66.66%, #FFCE00 66.66%, #FFCE00 100%);
+
+}
+
+.jp {
+    background: radial-gradient(circle, red, red 24%, white 24%, white 100%);
+    border: 1px solid black;
+}
+
+.p1 {
+    position: relative;
+    display: inline-block;
+}
+
+.p1::before {
+    content: '"';
+   
+    color: #FF0000;
+    
+}
+
+.p1::after {
+    content: '"';
+    color: #FF0000;
+}
+
+.p2::selection {
+    background-color: yellow;
+    color: blue;
+  }
+
+  .p3::first-letter {
+    font-size: 48px;
+    margin-right: 6px; /* добавляем небольшой отступ справа */
+  }
+
+.nav {
+    list-style-type: none;
+  }
+
+.nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.nav a:hover {
+    color: skyblue;
+}
+
+.nav a:active {
+    color: pink;
+}
+
+.list li:first-child,
+.list li:last-child {
+    font-weight: bold;
+    font-weight: bold;
+}
+
+.list li:nth-child(2n) {
+    color: #FFCE00;
+}
+
+.list li:nth-of-type(4n) {
+    color: blue;
+}
+
+.input {
+    padding: 10px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.input:focus {
+    border: 1px solid red;
+}
+
+.filter img:hover {
+    filter: sepia(1);
+}
+
+.filter2 img:hover {
+    transform: rotate(90deg);
+}
+
+.filter3 img:hover {
+    filter: invert();
+}
+
+.filter4 img:hover {
+    opacity: .5;
+}
+
+
